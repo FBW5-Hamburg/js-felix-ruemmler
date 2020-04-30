@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background-color: #010101;
+}
+canvas{
+  position: absolute;
+  left: 325px;
+  top: 120px;
+}
+/* 
+#grain{
+  position: absolute;
+  left: 25px;
+  top: 20px;
+} */
+
+#frame{
+  position: absolute;
+  top: 0px;
+  left: 0px
+}
+
+#bg{
+    position:absolute;
+    visibility:hidden;
+    height: 250px;
+    top: 0;
+    left: 0;
+  }
